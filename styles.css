@@ -64,3 +64,17 @@ p{
     display:flex ;
     justify-content: center;
 }
+@media (min-width: 319px) and (max-width: 480px) {
+    .title{
+        /* display:flex;
+        align-content: center;
+        justify-content: center;
+        height: fit-content; */
+         font-size: 3rem;
+         /* margin: 30px; */
+     }
+     img{
+        height: 6rem;
+        width: 6rem;
+    }
+}
